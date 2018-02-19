@@ -1,0 +1,7 @@
+{
+    "Application": "Big Venture",
+    "BoundedContext": "Basic",
+    "ApplicationStructure": [
+        "-^{Module}.-^{Feature}.-^{SubFeature}*"
+    ]
+}
