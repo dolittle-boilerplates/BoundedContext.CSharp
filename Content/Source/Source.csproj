@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="doLittle.Assemblies" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.DependencyInversion" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.DependencyInversion.Conventions" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.DependencyInversion.Bootstrap" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.DependencyInversion.Autofac" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.Logging" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.Types" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Applications" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Artifacts" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Commands" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Commands.Coordination" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Commands.Handling" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Events.Storage" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.SDK.Hosting" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.Runtime.ReadModels" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.Runtime.Queries" Version="2.0.0-alpha2*" />
+    <PackageReference Include="doLittle.Runtime.Queries.Coordination" Version="2.0.0-alpha2*" />
+    <PackageReference Include="Dolittle.AspNetCore.Bootstrap" Version="2.0.0-alpha2*" />
+    <PackageReference Include="Dolittle.AspNetCore.Commands" Version="2.0.0-alpha2*" />
+    <PackageReference Include="Dolittle.AspNetCore.Queries" Version="2.0.0-alpha2*" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
