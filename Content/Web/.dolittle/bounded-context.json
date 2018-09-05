@@ -1,0 +1,10 @@
+{
+  "application": "{{applicationId}}",
+  "boundedContext": "{{id}}",
+  "boundedContextName": "{{name}}",
+  "useModules": true,
+  "proxiesBasePath": "Features",
+  "namespaceSegmentsToStrip": {},
+  "topology": {
+  }
+}
