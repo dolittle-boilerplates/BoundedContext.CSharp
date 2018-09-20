@@ -3,8 +3,7 @@
   "boundedContext": "{{id}}",
   "boundedContextName": "{{name}}",
   "useModules": true,
+  "language": "csharp",
   "proxiesBasePath": "Features",
-  "namespaceSegmentsToStrip": {},
-  "topology": {
-  }
+  "namespaceSegmentsToStrip": {}
 }
