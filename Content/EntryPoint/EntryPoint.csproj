@@ -7,7 +7,12 @@
     <NoWarn>$(NoWarn);1591</NoWarn>
     <DefaultItemExcludes>gulp\**\*;node_modules\**\*;jspm_packages\**\*;bower_components\**\*;wwwroot\**\*;bin\**\*;obj\**\*</DefaultItemExcludes>
   </PropertyGroup>
-
+  
+  <PropertyGroup>
+    <DolittleUseModules>False</DolittleUseModules>
+    <DolittleGenerateProxies>False</DolittleGenerateProxies>
+  </PropertyGroup>
+  
   <ItemGroup>
     <Content Remove="node_modules\**\*" />
     <Content Remove="jspm_packages\**\*" />
@@ -34,7 +39,7 @@
     
     <PackageReference Include="Dolittle.AspNetCore" Version="2.0.0-alpha2*" />
     <PackageReference Include="Dolittle.SDK" Version="2.0.0-alpha2*" />
-    <PackageReference Include="DolittleArtifactsBuild" Version="2.0.0-alpha2*" />   
+    <PackageReference Include="Dolittle.Build" Version="2.0.0-alpha2*" />   
 
     <PackageReference Include="Dolittle.DependencyInversion.Autofac" Version="2.0.0-alpha2*" />
     
@@ -45,7 +50,7 @@
 
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
 
-    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="2.0.0" />
 
