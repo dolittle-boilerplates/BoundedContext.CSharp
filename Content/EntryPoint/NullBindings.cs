@@ -1,16 +1,11 @@
-using System.Globalization;
-using System.Security.Claims;
-using Dolittle.Events.Coordination;
 using Dolittle.DependencyInversion;
-using Dolittle.Execution;
-using Dolittle.Runtime.Events;
-using Dolittle.Runtime.Events.Coordination;
-using Dolittle.Runtime.Events.Store;
-using Dolittle.Runtime.Events.Store.MongoDB;
-using Dolittle.Runtime.Execution;
+using Dolittle.Events.Coordination;
 using Dolittle.ReadModels;
 using Dolittle.ReadModels.MongoDB;
-using Dolittle.Security;
+using Dolittle.Runtime.Events.Coordination;
+using Dolittle.Runtime.Events.Processing;
+using Dolittle.Runtime.Events.Processing.MongoDB;
+using Dolittle.Runtime.Events.Store;
 using MongoDB.Driver;
 
 
@@ -34,6 +29,8 @@ namespace Web
                 DefaultDatabase = "{{name}}_ReadModels"
             });
             builder.Bind(typeof(IReadModelRepositoryFor<>)).To(typeof(ReadModelRepositoryFor<>));
+
+            builder.Bind<IEventProcessorOffsetRepository>().To<EventProcessorOffsetRepository>();
         }
     }
 }
