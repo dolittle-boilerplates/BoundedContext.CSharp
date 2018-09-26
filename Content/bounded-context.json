@@ -2,8 +2,7 @@
   "application": "{{applicationId}}",
   "boundedContext": "{{id}}",
   "boundedContextName": "{{name}}",
-  "useModules": true,
-  "language": "csharp",
-  "proxiesBasePath": "Features",
-  "namespaceSegmentsToStrip": {}
+  "backend": {
+    "language": "csharp"
+  }
 }
