@@ -9,7 +9,7 @@ using Dolittle.Runtime.Events.Store;
 using MongoDB.Driver;
 
 
-namespace Web
+namespace Core
 {
     public class NullBindings : ICanProvideBindings
     {
