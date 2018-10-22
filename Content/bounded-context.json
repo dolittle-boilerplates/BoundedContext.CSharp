@@ -2,7 +2,7 @@
   "application": "{{applicationId}}",
   "boundedContext": "{{id}}",
   "boundedContextName": "{{name}}",
-  "backend": {
+  "core": {
     "language": "csharp"
   }
 }
