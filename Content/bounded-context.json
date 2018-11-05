@@ -2,6 +2,16 @@
   "application": "{{applicationId}}",
   "boundedContext": "{{id}}",
   "boundedContextName": "{{name}}",
+  "resources": {
+    "readModels": {
+      "production": "MongoDB",
+      "development": "MongoDB"
+    },
+    "eventStore": {
+      "production": "MongoDB",
+      "development": "MongoDB"
+    }
+  },
   "core": {
     "language": "csharp"
   }
