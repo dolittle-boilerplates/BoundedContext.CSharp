@@ -26,6 +26,10 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <Content Include=".dolittle\**\*" CopyToPublishDirectory="Always"/>
+  </ItemGroup>
+  
+  <ItemGroup>
     <Content Remove="node_modules\**\*" />
     <Content Remove="jspm_packages\**\*" />
     <Content Remove="bower_components\**\*" />
