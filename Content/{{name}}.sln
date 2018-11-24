@@ -19,6 +19,27 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Specs", "Domain.Spec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read.Specs", "Read.Specs\Read.Specs.csproj", "{85AF3248-A59D-41EA-BB34-31E04DB22DDB}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web\", "{A2314E5A-2006-4B2B-AC57-203AA733F63B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51181"
+		Debug.AspNetCompiler.PhysicalPath = "Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51181\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51181"
+		Release.AspNetCompiler.PhysicalPath = "Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51181\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51181"
+		SlnRelativePath = "Web\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,5 +149,17 @@ Global
 		{85AF3248-A59D-41EA-BB34-31E04DB22DDB}.Release|x64.Build.0 = Release|Any CPU
 		{85AF3248-A59D-41EA-BB34-31E04DB22DDB}.Release|x86.ActiveCfg = Release|Any CPU
 		{85AF3248-A59D-41EA-BB34-31E04DB22DDB}.Release|x86.Build.0 = Release|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Debug|x64.Build.0 = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Debug|x86.Build.0 = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Release|x64.ActiveCfg = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Release|x64.Build.0 = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Release|x86.ActiveCfg = Debug|Any CPU
+		{A2314E5A-2006-4B2B-AC57-203AA733F63B}.Release|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
