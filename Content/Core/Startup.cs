@@ -23,10 +23,13 @@ namespace Core
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSwaggerGen(c =>
+            if (_hostingEnvironment.IsDevelopment())
             {
-                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
-            });
+                services.AddSwaggerGen(c =>
+                {
+                    c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                });
+            }
             services.AddMvc();
 
             _bootResult = services.AddDolittle(_loggerFactory);
