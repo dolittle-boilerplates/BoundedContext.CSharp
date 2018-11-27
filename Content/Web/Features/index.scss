@@ -2,24 +2,14 @@
 @import '../styles/Tools/all.scss';
 
 .index {
-    .splash-header {
-        background-image: url('../assets/splash.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; // background-blend-mode: multiply;
-        padding: $grid-gutter * 3 $grid-gutter $grid-gutter * 8;
+    height: 100%;
+    padding: $grid-gutter;
+    @extend %flex-container-vertical;
 
-        .content {
-            padding: $grid-gutter;
-            background-color: rgba(51, 185, 230, 0.95);
-            border-radius: 0.1875rem;
-            color: #fff;
-            a {
-                color: inherit;
-            }
-            @include media-bp-min(tablet) {
-                width: 50%;
-            }
+        svg{
+            width: 100%;
         }
+    &.acrylic {
+
     }
 }
