@@ -1,16 +1,11 @@
 @import '../styles/Settings/all';
 @import '../styles/Tools/all.scss';
-$app-background-image: '../assets/images/rawpixel-653764-unsplash.jpg';
 
 body {
-    table tbody tr:nth-child(2n) {
-        background-color: rgba(#333333, 0.6);
-    }
-    .default_layout {
-        @extend %flex-container;
-        flex-direction:column;
-        padding: 0;
-        height: 100vh;
-    }
-
+  .default_layout {
+    @extend %flex-container;
+    flex-direction: column;
+    padding: 0;
+    height: 100vh;
+  }
 }

@@ -2,14 +2,11 @@
 @import '../styles/Tools/all.scss';
 
 .index {
-    height: 100%;
-    padding: $grid-gutter;
-    @extend %flex-container-vertical;
+  height: 100%;
+  padding: $grid-gutter;
+  @extend %flex-container-vertical;
 
-        svg{
-            width: 100%;
-        }
-    &.acrylic {
-
-    }
+  svg {
+    width: 100%;
+  }
 }
