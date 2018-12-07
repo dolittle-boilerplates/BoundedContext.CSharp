@@ -1,24 +1,11 @@
 @import '../styles/Settings/all';
-$app-background-image: '../assets/images/rawpixel-653764-unsplash.jpg';
+@import '../styles/Tools/all.scss';
 
 body {
-    background: #333 url($app-background-image) fixed center;
-    background-size: cover;
-    position: relative;
-
-    .acrylic {
-        &::before {
-            background: rgba(0, 0, 0, 0.01) url($app-background-image) fixed center;
-            background-size: cover;
-        }
-
-    }
-    table tbody tr:nth-child(2n) {
-        background-color: rgba(#333333, 0.6);
-    }
-    .default_layout {
-        padding: 0;
-        height: 100vh;
-    }
-    
+  .default_layout {
+    @extend %flex-container;
+    flex-direction: column;
+    padding: 0;
+    height: 100vh;
+  }
 }
