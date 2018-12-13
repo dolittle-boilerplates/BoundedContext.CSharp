@@ -1,5 +1,6 @@
 using Autofac;
 using Dolittle.AspNetCore.Bootstrap;
+using Dolittle.Booting;
 using Dolittle.DependencyInversion.Autofac;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,7 +14,7 @@ namespace Core
     {
         readonly IHostingEnvironment _hostingEnvironment;
         readonly ILoggerFactory _loggerFactory;
-        BootResult _bootResult;
+        BootloaderResult _bootResult;
 
         public Startup(IHostingEnvironment hostingEnvironment, ILoggerFactory loggerFactory)
         {
