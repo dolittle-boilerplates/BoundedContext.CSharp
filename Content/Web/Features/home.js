@@ -4,7 +4,7 @@ import { CommandCoordinator } from '@dolittle/commands';
 import { QueryCoordinator } from '@dolittle/queries';
 
 @inject(CommandCoordinator, QueryCoordinator)
-export class index {
+export class home {
     
     constructor(commandCoordinator, queryCoordinator) {
 
