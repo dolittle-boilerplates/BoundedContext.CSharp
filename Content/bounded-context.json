@@ -1,6 +1,6 @@
 {
   "application": "{{applicationId}}",
-  "boundedContext": "{{id}}",
+  "boundedContext": "{{createGuid}}",
   "boundedContextName": "{{name}}",
   "resources": {
     "readModels": {
