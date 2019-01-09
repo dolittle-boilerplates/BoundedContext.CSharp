@@ -7,7 +7,7 @@
     "url": "git+https://github.com/dolittle-boilerplates/CSharp.BoundedContext.git"
   },
   "keywords": [
-    "boilerplates"
+    "dolittle", "boilerplates", "bounded-context"
   ],
   "author": "Dolittle",
   "license": "MIT",
