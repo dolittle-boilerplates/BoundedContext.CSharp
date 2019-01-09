@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/dolittle-boilerplates/CSharp.BoundedContext/issues"
   },
-  "homepage": "https://github.com/dolittle-boilerplates/CSharp.BoundedContext#readme"
+  "publishConfig": {
+      "access": "public"
+  },
+  "homepage": "https://dolittle.io"
 }
