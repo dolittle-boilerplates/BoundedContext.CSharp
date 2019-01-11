@@ -1,0 +1,21 @@
+{
+  "name": "@dolittle/boilerplates.bounded-context.csharp",
+  "version": "1.0.0",
+  "description": "Standard bounded context boilerPlates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolittle-boilerplates/CSharp.BoundedContext.git"
+  },
+  "keywords": [
+    "dolittle", "boilerplates", "bounded-context"
+  ],
+  "author": "Dolittle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolittle-boilerplates/CSharp.BoundedContext/issues"
+  },
+  "publishConfig": {
+      "access": "public"
+  },
+  "homepage": "https://dolittle.io"
+}
