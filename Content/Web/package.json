@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@dolittle/build": "1.0.0",
-    "@dolittle/build.aurelia": "1.1.0",
+    "@dolittle/build.aurelia": "3.2.1",
     "@dolittle/styles": "^2.9.5",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2",
