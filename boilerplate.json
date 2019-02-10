@@ -2,14 +2,13 @@
     "name": "Basic template",
     "language": "csharp",
     "type": "boundedContext",
-    "description": "This is a basic boilerplate",
-    "dependencies": [
-        {
+    "description": "This is a basic bounded context boilerplate",
+    "dependencies": {
+        "name": {
             "description": "The name of the bounded context",
-            "name": "name",
             "type": "userInput",
             "promptMessage": "The name of the bounded context",
             "userInputType": "argument"
         }
-    ]
+    }
  }
