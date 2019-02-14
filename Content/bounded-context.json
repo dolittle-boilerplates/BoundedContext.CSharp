@@ -4,12 +4,12 @@
   "boundedContextName": "{{name}}",
   "resources": {
     "readModels": {
-      "production": "MongoDB",
-      "development": "MongoDB"
+      "production": "{{readModelsImplementation}}",
+      "development": "{{readModelsImplementation}}"
     },
     "eventStore": {
-      "production": "MongoDB",
-      "development": "MongoDB"
+      "production": "{{eventStoreImplementation}}",
+      "development": "{{eventStoreImplementation}}"
     }
   },
   "core": {
