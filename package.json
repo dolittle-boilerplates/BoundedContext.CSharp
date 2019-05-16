@@ -1,6 +1,6 @@
 {
   "name": "@dolittle/boilerplates.bounded-context.csharp",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Standard bounded context boilerplate for C#",
   "repository": {
     "type": "git",

@@ -1,5 +1,4 @@
 using Autofac;
-using Dolittle.AspNetCore.Bootstrap;
 using Dolittle.Booting;
 using Dolittle.DependencyInversion.Autofac;
 using Microsoft.AspNetCore.Builder;
